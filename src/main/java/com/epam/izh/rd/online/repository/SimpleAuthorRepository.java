@@ -71,8 +71,6 @@ public class SimpleAuthorRepository implements AuthorRepository {
             tempAuthors = Arrays.copyOf(authors, tempAuthors.length - 1);
             authors = Arrays.copyOf(tempAuthors, tempAuthors.length);
         }
-
-        System.out.println(removed);
         return removed;
     }
 
